@@ -90,6 +90,11 @@ p {
 #menu p {
   margin: 0;
 }
+
+.menu-link {
+  cursor: pointer;
+}
+
 #menugrid {
   width: 60%;
   margin: 0 auto;
@@ -102,7 +107,10 @@ p {
     -moz-transition: opacity .3s ease-out;
     -ms-transition: opacity .3s ease-out;
     transition: opacity .3s ease-out;
+    cursor: pointer;
   }
+
+
 
 .board {
   padding: 10px 10px 20px 10px;
@@ -177,6 +185,7 @@ p {
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: center center;
+  cursor: pointer;
 }
 #back.icon { background-image: url(../img/close.png); }
 #retry.icon { background-image: url(../img/spinner.png); }
@@ -193,6 +202,7 @@ p {
   width: 100%;
   text-align: center;
 }
+
 .error {
   -webkit-animation: wiggle .5s ease;
   -moz-animation: wiggle .5s ease;
