@@ -89,10 +89,16 @@ p {
 }
 #menu p {
   margin: 0;
+  transition: color 0.3s ease-out 0.1s;
+}
+
+#menu p:hover {
+  text-shadow: 0px 0px 1px white;
 }
 
 .menu-link {
   cursor: pointer;
+  // TODO color transition! for hover
 }
 
 #menugrid {
@@ -232,10 +238,10 @@ p {
   color: transparent;
 }
 #title * {
-  -webkit-transition: color 1s ease-out 1s;
-  -moz-transition: color 1s ease-out 1s;
-  -ms-transition: color 1s ease-out 1s;
-  transition: color 1s ease-out 1s;
+  -webkit-transition: color 0.3s ease-out 0.1s;
+  -moz-transition: color 0.3s ease-out 0.1s;
+  -ms-transition: color 0.3s ease-out 0.1s;
+  transition: color 0.3s ease-out 0.1s;
 }
 html body .show01 .tile .inner,
 html body .show01 .tile .inner:after {
@@ -245,10 +251,10 @@ html body .show01 .tile .inner:after {
   color: transparent;
 }
 #title p {
-  -webkit-transition: color 1s ease-out 1s;
-  -moz-transition: color 1s ease-out 1s;
-  -ms-transition: color 1s ease-out 1s;
-  transition: color 1s ease-out 1s;
+   -webkit-transition: color 0.3s ease-out 0.1s;
+  -moz-transition: color 0.3s ease-out 0.1s;
+  -ms-transition: color 0.3s ease-out 0.1s;
+  transition: color 0.3s ease-out 0.1s;
 }
 #titlegrid {
   position: relative;
